@@ -5,7 +5,10 @@ on:
     branches: [ main,master,local ]
   pull_request:
     branches: [ main,master,local ]
-
+  schedule:
+    - cron: '30 4 * * *'   # ⏰ Runs daily at 10:00 AM IST (4:30 AM UTC)
+  workflow_dispatch:        # 👆 Allows manual run from GitHub UI
+  
 jobs:
   test:
     runs-on: ubuntu-latest
