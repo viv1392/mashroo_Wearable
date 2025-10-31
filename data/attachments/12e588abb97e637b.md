@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e5]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "Facebook" [ref=e9] [cursor=pointer]:
+          - /url: https://www.facebook.com/MashrooOnline/
+          - img
+          - generic [ref=e10]: Facebook
+      - listitem [ref=e11]:
+        - link "YouTube" [ref=e12] [cursor=pointer]:
+          - /url: https://www.youtube.com/@mashroostore
+          - img
+          - generic [ref=e13]: YouTube
+      - listitem [ref=e14]:
+        - link "Instagram" [ref=e15] [cursor=pointer]:
+          - /url: https://www.instagram.com/mashroostore/
+          - img
+          - generic [ref=e16]: Instagram
+      - listitem [ref=e17]:
+        - link "LinkedIn" [ref=e18] [cursor=pointer]:
+          - /url: https://in.linkedin.com/company/mashroo
+          - img
+          - generic [ref=e19]: LinkedIn
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Country/Region
+        - button "Country/Region" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: India (INR ₹)
+          - img
+      - generic [ref=e31]:
+        - generic [ref=e32]: Language
+        - button "Language" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: English
+          - img
+  - generic [ref=e37]:
+    - generic [ref=e39]:
+      - link "Mashroo" [ref=e43] [cursor=pointer]:
+        - /url: /
+        - img "Mashroo" [ref=e44]
+      - generic [ref=e46]:
+        - link "Account" [ref=e47] [cursor=pointer]:
+          - /url: https://shopify.com/57107513516/account?locale=en&region_country=IN
+          - generic [ref=e48]: Account
+          - generic [ref=e49]:
+            - img
+        - link "Search" [ref=e50] [cursor=pointer]:
+          - /url: /search
+          - generic [ref=e51]: Search
+          - generic [ref=e52]:
+            - img
+        - link "Cart" [ref=e53] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e54]: Cart
+          - generic [ref=e55]:
+            - img
+    - navigation "Primary" [ref=e57]:
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "Home" [ref=e61] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e62]:
+          - link "Men" [ref=e63] [cursor=pointer]:
+            - /url: /collections/shop-men-mashroo
+        - listitem [ref=e64]:
+          - link "Women" [ref=e65] [cursor=pointer]:
+            - /url: /collections/shop-women
+        - listitem [ref=e66]:
+          - link "Kids & Teens" [ref=e67] [cursor=pointer]:
+            - /url: /collections/kids-teens
+        - listitem [ref=e68]:
+          - link "Sale" [ref=e69] [cursor=pointer]:
+            - /url: /collections/sale
+        - listitem [ref=e70]:
+          - link "Return & Exchange" [ref=e71] [cursor=pointer]:
+            - /url: https://returns.logisy.tech/returns?encipherencode=gAAAAABo5NG2_bpcxlg9-uVZg7R9mM75pi28lQY_pOltz15a7H52j7A_Tj-kyUnrBPVAlgxnX9iC0omdijMJgpn946_vmixlLg==
+        - listitem [ref=e72]:
+          - link "Track Order" [ref=e73] [cursor=pointer]:
+            - /url: https://mashroostore.logisy.tech/track-order/
+```
