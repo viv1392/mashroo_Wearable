@@ -1,0 +1,485 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e5]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "Facebook" [ref=e9] [cursor=pointer]:
+          - /url: https://www.facebook.com/MashrooOnline/
+          - img
+          - generic [ref=e10]: Facebook
+      - listitem [ref=e11]:
+        - link "YouTube" [ref=e12] [cursor=pointer]:
+          - /url: https://www.youtube.com/@mashroostore
+          - img
+          - generic [ref=e13]: YouTube
+      - listitem [ref=e14]:
+        - link "Instagram" [ref=e15] [cursor=pointer]:
+          - /url: https://www.instagram.com/mashroostore/
+          - img
+          - generic [ref=e16]: Instagram
+      - listitem [ref=e17]:
+        - link "LinkedIn" [ref=e18] [cursor=pointer]:
+          - /url: https://in.linkedin.com/company/mashroo
+          - img
+          - generic [ref=e19]: LinkedIn
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Country/Region
+        - button "Country/Region" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: India (INR ₹)
+          - img
+      - generic [ref=e31]:
+        - generic [ref=e32]: Language
+        - button "Language" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: English
+          - img
+  - generic [ref=e37]:
+    - generic [ref=e39]:
+      - link "Mashroo" [ref=e43] [cursor=pointer]:
+        - /url: /
+        - img "Mashroo" [ref=e44]
+      - generic [ref=e46]:
+        - link "Account" [ref=e47] [cursor=pointer]:
+          - /url: https://shopify.com/57107513516/account?locale=en&region_country=IN
+          - generic [ref=e48]: Account
+          - generic [ref=e49]:
+            - img
+        - link "Search" [ref=e50] [cursor=pointer]:
+          - /url: /search
+          - generic [ref=e51]: Search
+          - generic [ref=e52]:
+            - img
+        - button [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - img
+        - link "Cart" [ref=e56] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e57]: Cart
+          - generic [ref=e58]:
+            - img
+    - navigation "Primary" [ref=e60]:
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - link "Home" [ref=e64] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e65]:
+          - link "Men" [ref=e66] [cursor=pointer]:
+            - /url: /collections/shop-men-mashroo
+        - listitem [ref=e67]:
+          - link "Women" [ref=e68] [cursor=pointer]:
+            - /url: /collections/shop-women
+        - listitem [ref=e69]:
+          - link "Kids & Teens" [ref=e70] [cursor=pointer]:
+            - /url: /collections/kids-teens
+        - listitem [ref=e71]:
+          - link "Sale" [ref=e72] [cursor=pointer]:
+            - /url: /collections/sale
+        - listitem [ref=e73]:
+          - link "Return & Exchange" [ref=e74] [cursor=pointer]:
+            - /url: https://returns.logisy.tech/returns?encipherencode=gAAAAABo5NG2_bpcxlg9-uVZg7R9mM75pi28lQY_pOltz15a7H52j7A_Tj-kyUnrBPVAlgxnX9iC0omdijMJgpn946_vmixlLg==
+        - listitem [ref=e75]:
+          - link "Track Order" [ref=e76] [cursor=pointer]:
+            - /url: https://mashroostore.logisy.tech/track-order/
+  - main [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - navigation "Breadcrumbs" [ref=e82]:
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - link "Home" [ref=e85] [cursor=pointer]:
+                - /url: /
+              - img [ref=e87]
+            - listitem [ref=e89]:
+              - link "End Of Season Sale" [ref=e90] [cursor=pointer]:
+                - /url: /collections/sale
+              - img [ref=e92]
+            - listitem [ref=e94]:
+              - link "Kurvig Omani Thobe Maroon For Men" [ref=e95] [cursor=pointer]:
+                - /url: /products/kurvig-omani-maroon-2-0
+          - generic [ref=e96]:
+            - link "Previous" [ref=e97] [cursor=pointer]:
+              - /url: /collections/sale/products/kurvig-saudi-thobe-green-2-0-for-men
+              - generic [ref=e98]:
+                - img
+              - text: Previous
+            - link "Next" [ref=e99] [cursor=pointer]:
+              - /url: /collections/sale/products/kurvig-omani-royal-blue-2-0
+              - text: Next
+              - generic [ref=e100]:
+                - img
+        - generic [ref=e101]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - region [ref=e105]:
+                - generic [ref=e107]:
+                  - group "1 of 7" [ref=e108]:
+                    - link "Load image 1 in gallery view" [ref=e109] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0037.jpg?v=1741131694&width=5000
+                  - group "2 of 7" [ref=e113]:
+                    - link "Load image 2 in gallery view" [ref=e114] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/DanishDawarLR-64.jpg?v=1741131694&width=5000
+                  - group "3 of 7" [ref=e118]:
+                    - link "Load image 3 in gallery view" [ref=e119] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0034.jpg?v=1741088922&width=5000
+                  - group "4 of 7" [ref=e123]:
+                    - link "Load image 4 in gallery view" [ref=e124] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0035.jpg?v=1741088922&width=5000
+                  - group "5 of 7" [ref=e128]:
+                    - link "Load image 5 in gallery view" [ref=e129] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0032.jpg?v=1741088922&width=5000
+                  - group "6 of 7" [ref=e133]:
+                    - link "Load image 6 in gallery view" [ref=e134] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0033.jpg?v=1741088922&width=5000
+                  - group "7 of 7" [ref=e138]:
+                    - link "Load image 7 in gallery view" [ref=e139] [cursor=pointer]:
+                      - /url: //mashroostore.com/cdn/shop/files/IMG-20250125-WA0119_cf2f915d-4030-43a4-bc7b-2ab4970a05c5.jpg?v=1741088922&width=5000
+                - generic:
+                  - button "Previous" [disabled]:
+                    - generic: Previous
+                    - img
+                  - button "Next" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]: Next
+                    - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 40% off
+            - list [ref=e147]:
+              - listitem [ref=e148]:
+                - link [ref=e149] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0037.jpg?v=1741131694&width=5000
+              - listitem [ref=e151]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/DanishDawarLR-64.jpg?v=1741131694&width=5000
+              - listitem [ref=e154]:
+                - link [ref=e155] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0034.jpg?v=1741088922&width=5000
+              - listitem [ref=e157]:
+                - link [ref=e158] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0035.jpg?v=1741088922&width=5000
+              - listitem [ref=e160]:
+                - link [ref=e161] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0032.jpg?v=1741088922&width=5000
+              - listitem [ref=e163]:
+                - link [ref=e164] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/IMG-20250126-WA0033.jpg?v=1741088922&width=5000
+              - listitem [ref=e166]:
+                - link [ref=e167] [cursor=pointer]:
+                  - /url: //mashroostore.com/cdn/shop/files/IMG-20250125-WA0119_cf2f915d-4030-43a4-bc7b-2ab4970a05c5.jpg?v=1741088922&width=5000
+          - generic [ref=e170]:
+            - heading "Kurvig Omani Thobe Maroon For Men" [level=1] [ref=e172]
+            - button "0.00 stars" [ref=e177]:
+              - generic [ref=e178]: 
+              - generic [ref=e179]: 
+              - generic [ref=e180]: 
+              - generic [ref=e181]: 
+              - generic [ref=e182]: 
+            - generic [ref=e186]:
+              - generic [ref=e187]: Rs. 1,439.00
+              - generic [ref=e188]: Rs. 2,399.00
+            - separator [ref=e189]
+            - group [ref=e192]:
+              - generic "Description & Size Chart" [ref=e193] [cursor=pointer]:
+                - generic [ref=e194]:
+                  - img [ref=e195]
+                  - generic [ref=e197]: Description & Size Chart
+            - group "Size" [ref=e200]:
+              - generic [ref=e201]: Size
+              - generic [ref=e202]:
+                - radio "S" [ref=e203]
+                - generic [ref=e205] [cursor=pointer]: S
+                - radio "M" [ref=e206]
+                - generic [ref=e208] [cursor=pointer]: M
+                - radio "L" [checked] [active] [ref=e209]
+                - generic [ref=e211]: L
+                - radio "XL" [ref=e212]
+                - generic [ref=e214] [cursor=pointer]: XL
+                - radio "2XL" [ref=e215]
+                - generic [ref=e217] [cursor=pointer]: 2XL
+                - radio "3XL" [ref=e218]
+                - generic [ref=e220] [cursor=pointer]: 3XL
+            - generic [ref=e223]:
+              - generic [ref=e224]: Quantity
+              - generic [ref=e225]:
+                - link "Decrease quantity" [ref=e226] [cursor=pointer]:
+                  - /url: "#"
+                  - img
+                - spinbutton "Quantity" [ref=e227]: "1"
+                - link "Increase quantity" [ref=e228] [cursor=pointer]:
+                  - /url: "#"
+                  - img
+              - button "Add to cart" [ref=e230] [cursor=pointer]
+              - button "Buy it now" [ref=e233] [cursor=pointer]:
+                - generic [ref=e234]: Buy it now
+            - generic [ref=e236]:
+              - paragraph [ref=e237]: Share
+              - list [ref=e238]:
+                - listitem [ref=e239]:
+                  - link "Tweet on X" [ref=e240] [cursor=pointer]:
+                    - /url: //twitter.com/intent/tweet?text=Kurvig%20Omani%20Thobe%20Maroon%20For%20Men&url=https://mashroostore.com/products/kurvig-omani-maroon-2-0
+                - listitem [ref=e241]:
+                  - link "Share on Facebook" [ref=e242] [cursor=pointer]:
+                    - /url: //www.facebook.com/sharer.php?u=https://mashroostore.com/products/kurvig-omani-maroon-2-0
+                    - img
+                - listitem [ref=e243]:
+                  - link "Pin on Pinterest" [ref=e244] [cursor=pointer]:
+                    - /url: //pinterest.com/pin/create/button/?url=https://mashroostore.com/products/kurvig-omani-maroon-2-0&media=//mashroostore.com/cdn/shop/files/IMG-20250126-WA0037.jpg?v=1741131694&width=1000&description=Kurvig%20Omani%20Thobe%20Maroon%20For%20Men
+                    - img
+            - button "Add to wishlist" [ref=e249] [cursor=pointer]:
+              - generic [ref=e250]:
+                - img
+              - text: Add to wishlist
+      - generic [ref=e253]:
+        - heading "You may also like" [level=4] [ref=e254]
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - link [ref=e261] [cursor=pointer]:
+                  - /url: /products/kurvig-oman-black-thobe-for-kids?pr_prod_strat=jac&pr_rec_id=5918442d4&pr_rec_pid=7791358083244&pr_ref_pid=8140793315500&pr_seq=uniform
+                - link "Previous":
+                  - /url: "#"
+                  - img
+                - link "Next":
+                  - /url: "#"
+                  - img
+              - generic [ref=e268]:
+                - link "Kurvig Omani Black Thobe for Kids Rs. 1,700" [ref=e269] [cursor=pointer]:
+                  - /url: /products/kurvig-oman-black-thobe-for-kids?pr_prod_strat=jac&pr_rec_id=5918442d4&pr_rec_pid=7791358083244&pr_ref_pid=8140793315500&pr_seq=uniform
+                  - generic [ref=e270]: Kurvig Omani Black Thobe for Kids
+                  - generic [ref=e274]: Rs. 1,700
+                - generic [ref=e276]:
+                  - generic [ref=e277]: "1"
+                  - generic [ref=e278]: "3"
+                  - generic [ref=e279]: "5"
+                  - generic [ref=e280]: "7"
+                  - generic [ref=e281]: "9"
+              - button "Add Kurvig Omani Black Thobe for Kids to wishlist" [ref=e283] [cursor=pointer]:
+                - generic [ref=e284]:
+                  - img
+            - link "Close" [ref=e285] [cursor=pointer]:
+              - /url: "#"
+              - img
+          - generic [ref=e287]:
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - link [ref=e291] [cursor=pointer]:
+                  - /url: /products/kurvig-omani-white-thobe?pr_prod_strat=e5_desc&pr_rec_id=5918442d4&pr_rec_pid=7789130907820&pr_ref_pid=8140793315500&pr_seq=uniform
+                - link "Previous":
+                  - /url: "#"
+                  - img
+                - link "Next":
+                  - /url: "#"
+                  - img
+              - generic [ref=e298]:
+                - link "Kurvig Omani White Thobe Men Rs. 2,399" [ref=e299] [cursor=pointer]:
+                  - /url: /products/kurvig-omani-white-thobe?pr_prod_strat=e5_desc&pr_rec_id=5918442d4&pr_rec_pid=7789130907820&pr_ref_pid=8140793315500&pr_seq=uniform
+                  - generic [ref=e300]: Kurvig Omani White Thobe Men
+                  - generic [ref=e304]: Rs. 2,399
+                - generic [ref=e306]:
+                  - generic [ref=e307]: S
+                  - generic [ref=e308]: M
+                  - generic [ref=e309]: L
+                  - generic [ref=e310]: XL
+                  - generic [ref=e311]: 2XL
+                  - generic [ref=e312]: 3XL
+                - generic [ref=e313]:
+                  - img "5.0 out of 5.0 stars" [ref=e314]:
+                    - generic [ref=e315]:
+                      - generic [ref=e316]:
+                        - img [ref=e317]
+                        - img [ref=e319]
+                        - img [ref=e321]
+                        - img [ref=e323]
+                        - img [ref=e325]
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - img [ref=e330]
+                        - img [ref=e332]
+                        - img [ref=e334]
+                        - img [ref=e336]
+                  - text: 1 review
+              - button "Add Kurvig Omani White Thobe Men to wishlist" [ref=e339] [cursor=pointer]:
+                - generic [ref=e340]:
+                  - img
+            - link "Close" [ref=e341] [cursor=pointer]:
+              - /url: "#"
+              - img
+          - generic [ref=e343]:
+            - generic [ref=e345]:
+              - generic [ref=e346]:
+                - link [ref=e347] [cursor=pointer]:
+                  - /url: /products/kurvig-omani-royal-blue-2-0?pr_prod_strat=jac&pr_rec_id=5918442d4&pr_rec_pid=8140792889516&pr_ref_pid=8140793315500&pr_seq=uniform
+                  - generic [ref=e348]:
+                    - generic:
+                      - generic:
+                        - generic: 40% off
+                - link "Previous":
+                  - /url: "#"
+                  - img
+                - link "Next":
+                  - /url: "#"
+                  - img
+              - generic [ref=e354]:
+                - link "Kurvig Omani Thobe Blue For Men Rs. 1,439 Rs. 2,399 Sale" [ref=e355] [cursor=pointer]:
+                  - /url: /products/kurvig-omani-royal-blue-2-0?pr_prod_strat=jac&pr_rec_id=5918442d4&pr_rec_pid=8140792889516&pr_ref_pid=8140793315500&pr_seq=uniform
+                  - generic [ref=e356]: Kurvig Omani Thobe Blue For Men
+                  - generic [ref=e358]:
+                    - generic [ref=e359]:
+                      - generic [ref=e360]: Rs. 1,439
+                      - generic [ref=e361]: Rs. 2,399
+                    - generic [ref=e362]: Sale
+                - generic [ref=e364]:
+                  - generic [ref=e365]: S
+                  - generic [ref=e366]: M
+                  - generic [ref=e367]: L
+                  - generic [ref=e368]: XL
+                  - generic [ref=e369]: 2XL
+                  - generic [ref=e370]: 3XL
+              - button "Add Kurvig Omani Thobe Blue For Men to wishlist" [ref=e372] [cursor=pointer]:
+                - generic [ref=e373]:
+                  - img
+            - link "Close" [ref=e374] [cursor=pointer]:
+              - /url: "#"
+              - img
+          - generic [ref=e376]:
+            - generic [ref=e378]:
+              - generic [ref=e379]:
+                - link [ref=e380] [cursor=pointer]:
+                  - /url: /products/kurvig-omani-maroon-2-0-for-boys?pr_prod_strat=e5_desc&pr_rec_id=5918442d4&pr_rec_pid=8141627228332&pr_ref_pid=8140793315500&pr_seq=uniform
+                  - generic [ref=e381]:
+                    - generic:
+                      - generic:
+                        - generic: 40% off
+                - link "Previous":
+                  - /url: "#"
+                  - img
+                - link "Next":
+                  - /url: "#"
+                  - img
+              - generic [ref=e387]:
+                - link "Kurvig Omani Maroon 2.0 For Boys Rs. 1,200 Rs. 2,000 Sale" [ref=e388] [cursor=pointer]:
+                  - /url: /products/kurvig-omani-maroon-2-0-for-boys?pr_prod_strat=e5_desc&pr_rec_id=5918442d4&pr_rec_pid=8141627228332&pr_ref_pid=8140793315500&pr_seq=uniform
+                  - generic [ref=e389]: Kurvig Omani Maroon 2.0 For Boys
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - generic [ref=e393]: Rs. 1,200
+                      - generic [ref=e394]: Rs. 2,000
+                    - generic [ref=e395]: Sale
+                - generic [ref=e397]:
+                  - generic [ref=e398]: B1
+                  - generic [ref=e399]: B2
+                  - generic [ref=e400]: B3
+              - button "Add Kurvig Omani Maroon 2.0 For Boys to wishlist" [ref=e402] [cursor=pointer]:
+                - generic [ref=e403]:
+                  - img
+            - link "Close" [ref=e404] [cursor=pointer]:
+              - /url: "#"
+              - img
+  - generic [ref=e406]:
+    - generic [ref=e410]:
+      - generic [ref=e413]:
+        - img [ref=e415]
+        - generic [ref=e418]: Express delivery!
+      - link "Customer Support" [ref=e421] [cursor=pointer]:
+        - /url: https://wa.link/cgaei9
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - img
+          - generic [ref=e425]: Customer Support
+      - link "Buy On WhatsApp" [ref=e428] [cursor=pointer]:
+        - /url: https://wa.link/cgaei9
+        - generic [ref=e429]:
+          - generic [ref=e430]:
+            - img
+          - generic [ref=e432]: Buy On WhatsApp
+      - generic [ref=e435]:
+        - img [ref=e437]
+        - generic [ref=e440]: Secure Payment
+    - generic [ref=e441]:
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - paragraph [ref=e447]:
+            - strong [ref=e448]: Mashroo
+            - text: with its expertise, has impeccably made an unmatched space in the field of modest clothing through its traditionally modern range of
+            - strong [ref=e449]: Thobes
+            - text: and
+            - strong [ref=e450]: Abayas
+            - text: .
+          - list [ref=e452]:
+            - listitem [ref=e453]:
+              - link "Facebook" [ref=e454] [cursor=pointer]:
+                - /url: https://www.facebook.com/MashrooOnline/
+                - img
+                - generic [ref=e455]: Facebook
+            - listitem [ref=e456]:
+              - link "YouTube" [ref=e457] [cursor=pointer]:
+                - /url: https://www.youtube.com/@mashroostore
+                - img
+                - generic [ref=e458]: YouTube
+            - listitem [ref=e459]:
+              - link "Instagram" [ref=e460] [cursor=pointer]:
+                - /url: https://www.instagram.com/mashroostore/
+                - img
+                - generic [ref=e461]: Instagram
+            - listitem [ref=e462]:
+              - link "LinkedIn" [ref=e463] [cursor=pointer]:
+                - /url: https://in.linkedin.com/company/mashroo
+                - img
+                - generic [ref=e464]: LinkedIn
+        - navigation "Secondary" [ref=e465]:
+          - generic [ref=e466]: Support
+          - list [ref=e467]:
+            - listitem [ref=e468]:
+              - link "FAQ" [ref=e469] [cursor=pointer]:
+                - /url: /pages/faq
+            - listitem [ref=e470]:
+              - link "Contact Us" [ref=e471] [cursor=pointer]:
+                - /url: /pages/contact-us
+            - listitem [ref=e472]:
+              - link "Wholesale Enquiry" [ref=e473] [cursor=pointer]:
+                - /url: /pages/wholesale
+        - navigation "Secondary" [ref=e474]:
+          - generic [ref=e475]: Quick links
+          - list [ref=e476]:
+            - listitem [ref=e477]:
+              - link "About Us" [ref=e478] [cursor=pointer]:
+                - /url: /pages/our-story
+            - listitem [ref=e479]:
+              - link "Our Offline Stores" [ref=e480] [cursor=pointer]:
+                - /url: /pages/mashroo-offline-store
+            - listitem [ref=e481]:
+              - link "Shipping & Delivery Policy" [ref=e482] [cursor=pointer]:
+                - /url: /pages/shipping-delivery-policy
+            - listitem [ref=e483]:
+              - link "Exchange & Refund Policy" [ref=e484] [cursor=pointer]:
+                - /url: /pages/replacement-refund-policy
+        - generic [ref=e485]:
+          - generic [ref=e486]: Newsletter
+          - paragraph [ref=e488]: Sign up for exclusive offers, original stories, events and more.
+          - generic [ref=e490]:
+            - paragraph [ref=e491]:
+              - textbox "Email" [ref=e492]:
+                - /placeholder: Your email
+            - button "Subscribe" [ref=e493] [cursor=pointer]
+      - generic [ref=e495]:
+        - navigation [ref=e497]:
+          - list "Secondary" [ref=e498]:
+            - listitem [ref=e499]:
+              - link "Terms & Condition" [ref=e500] [cursor=pointer]:
+                - /url: /policies/terms-of-service
+            - listitem [ref=e501]:
+              - link "Privacy Policy" [ref=e502] [cursor=pointer]:
+                - /url: /policies/privacy-policy
+        - generic [ref=e505]:
+          - text: © 2025
+          - link "Mashroo" [ref=e506] [cursor=pointer]:
+            - /url: /
+          - text: .
+  - img [ref=e509] [cursor=pointer]
+  - generic [ref=e515] [cursor=pointer]: INR
+```

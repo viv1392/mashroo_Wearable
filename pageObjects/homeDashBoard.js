@@ -16,10 +16,7 @@ class HomeDashBoard extends BasePage{
    console.log(kurta);
    if(kurta==desiredKurta){
      await this.clickElement(this.kurtasTitle);
-   }
-   await this.waitForTimeout(4000);
-    
-   
+   }   
   }
 }
 module.exports={HomeDashBoard};

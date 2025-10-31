@@ -46,6 +46,7 @@ class BasePage{
 
         for (const element of elements) {
             const text = (await element.innerText()).trim();
+            
             if (text.toLowerCase().includes(targetText.toLowerCase())) {
                 await element.click();
                 console.log(`✅ Clicked on element with text: ${text}`);
@@ -66,8 +67,8 @@ class BasePage{
     }
    
 
-    async waitForTimeout(time){
-        await this.page.waitForTimeout(time);
+    async waitingTimeout(){
+        await this.page.waitForTimeout(4000);
     }
 
 }

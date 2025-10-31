@@ -17,9 +17,6 @@ const{BasePage}=require('../pageObjects/basePage');
     }
     async productSelection(kurta){
         await this.clickElementByText(this.products,kurta);
-        await this.waitForTimeout(3000);
-      
-
     }
 
 

@@ -5,7 +5,7 @@ const{registrationData,siteUrl,loginData}=require('../testData/Testdata');
 const {AccountCrationPage}=require('../pageObjects/accountPage')
 const{HomeDashBoard}=require('../pageObjects/homeDashBoard');
 const{ProductSelectionDetails}=require('../pageObjects/productDetails');
-
+const{AddToCart}=require('../pageObjects/addToCart');
 
 test.describe.serial('Wearable Test Suite', () => {
 
@@ -48,9 +48,12 @@ test.describe.serial('Wearable Test Suite', () => {
 
     test('Product selection from home Page',async({page})=>{
         const homePage=new HomePage(page);
+        const productInCart=new AddToCart(page);
 
         let desiredProduct='Kurvig Omani Thobe Maroon For Men';
+        let size='L'
         await homePage.productSelection(desiredProduct);
+        await productInCart.addToCart('2');
 
     });
 });
